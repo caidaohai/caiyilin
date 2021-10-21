@@ -1,0 +1,53 @@
+@charset "utf-8";
+.rainbow{
+    width:400px;
+    height: 200px;
+    overflow: hidden;
+    margin:0 auto;
+}
+.rainbow div{
+    margin-left: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.rainbow > div{
+    background-color: red;
+    width: 380px;
+    height:380px;
+}
+.rainbow > div > div {
+    background-color:#FF7F00;
+    width: 360px;
+    height:360px;
+}
+.rainbow > div> div > div{
+    background-color: #FFFF00;
+    width: 340px;
+    height:340px;
+}
+.rainbow > div > div> div > div{
+    background-color: #00FF00;
+    width: 320px;
+    height:320px;
+}
+.rainbow > div > div> div > div > div{
+    background-color: #00FFFF;
+    width: 300px;
+    height:300px;
+}
+.rainbow > div > div > div> div > div > div{
+    background-color: #0000FF;
+    width: 280px;
+    height:280px;
+}
+.rainbow > div > div > div > div> div > div > div{
+    background-color: #8B00FF;
+    width: 260px;
+    height:260px;
+}
+.rainbow > div > div > div > div> div > div > div > div{
+    background-color: #fff;
+    width: 240px;
+    height:240px;
+}
