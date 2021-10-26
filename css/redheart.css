@@ -1,0 +1,31 @@
+@charset "utf-8";
+#redheart{
+    display: inline-block;
+    position: relative;
+    transition: all 1s;
+}
+#redheart > div{
+    width:100px;
+    height:100px;
+    background: red;
+    display: inline-block;
+}
+#redheart .left , #redheart .right{
+    position:absolute;
+}
+#redheart .bottom{
+    margin-top: 100px;
+    margin-left: 100px;
+    transform: rotate(45deg);
+}
+#redheart .right{
+    transform: rotate(135deg) translate(-50px,-141px);
+    border-radius: 50%;
+}
+#redheart .left{
+    transform: rotate(135deg) translate(0px,-90px);
+    border-radius: 50%;
+}
+#redheart:hover{
+    transform:scale(1.2);
+}
