@@ -46,6 +46,10 @@ let string = `/* 你好，我叫小蔡
     border-radius: 50%;
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%, rgba(0,0,0,1) 100%);
 }
+/*添加转动效果*/
+#div1 {
+    animation: revolve 3s linear infinite normal;
+}
 `;
 let string2 = "";
 let n = 0;
@@ -70,7 +74,7 @@ let step = ()=>{
             n += 1;
             step();
         }
-    },50);
+    },30);
 };
 
 step();

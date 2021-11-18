@@ -37,7 +37,22 @@
     display: block;
     position: absolute;
   }
-  
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes revolve{
+    from {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);        
+    }
+}
   @media (max-width: 500px) {
     #html {
       height: 50vh;
